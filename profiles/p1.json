@@ -1,0 +1,60 @@
+{
+  "id": "p1",
+  "app": {
+    "source_sha256": "aa3b40d251ccbb3928b3bc3e1fffb778889991502cb188095422d579c1ef372a",
+    "source_bytes": 4863124,
+    "source_url": "https://www.dropbox.com/scl/fi/oj0zlt41j5vggi4cvjdbe/com.airoha.utapp.sdk.apk?rlkey=dto09dtvwxf99tcm17pqdlwr9&dl=1",
+    "source_package": "com.airoha.utapp.sdk",
+    "output_package": "com.airoha.utapp.sdk.pairbridge",
+    "label": "PairBridge",
+    "runtime_version": "31.6.305.162",
+    "runtime_flash": "FLASH_4M",
+    "runtime_states": [
+      785,
+      785
+    ],
+    "battery_threshold": 20,
+    "apktool_version": "3.0.3",
+    "min_sdk": 19,
+    "target_sdk": 29,
+    "sdk_version": "2.4.7.2021042714"
+  },
+  "firmware": {
+    "left": {
+      "source_sha256": "4781193dd399278df583d220c5804e5985961370425eed3d339c5c613ba4546f",
+      "source_bytes": 1373201,
+      "candidate_sha256": "2b10906fe38ba7c3d0e8ec27cc9c4d908d4408de2f19b9f1b8468dee9ccedcab",
+      "candidate_bytes": 1372642,
+      "source_url": "https://raw.githubusercontent.com/Gostrdr1337/AirFirmwareDL/bd4405ed3ed0739075987de37f6d6e0110508f8c/Firmware-backup/V4.9%20TB/V4.9%20TB_162/S305_cc%2520ultra_AB1562AE_V31.6.305.162_left_FotaPackage.bin",
+      "input_name": "left.bin",
+      "output_name": "PairBridge_P1_left_FotaPackage.bin"
+    },
+    "right": {
+      "source_sha256": "7cdeff75c420316646c67fe9fad6f5f3e365a1791a55241e351924f411d78bda",
+      "source_bytes": 1373201,
+      "candidate_sha256": "2b6ed6b988d0c6cbd8724a471d0579a0f076e168551b42890417f265e9071072",
+      "candidate_bytes": 1372642,
+      "source_url": "https://raw.githubusercontent.com/Gostrdr1337/AirFirmwareDL/bd4405ed3ed0739075987de37f6d6e0110508f8c/Firmware-backup/V4.9%20TB/V4.9%20TB_162/S305_cc%2520ultra_AB1562AE_V31.6.305.162_right_FotaPackage.bin",
+      "input_name": "right.bin",
+      "output_name": "PairBridge_P1_right_FotaPackage.bin"
+    }
+  },
+  "validation": {
+    "date": "2026-10-04",
+    "unit": "cc ultra / S305 / AB1562AE reported by application",
+    "host": "iPhone 17 Pro",
+    "os": "iOS 27.0.1 / 24A446",
+    "transfer_commit_reboot": "SDK logs confirmed both sides",
+    "pairing": "confirmed by owner",
+    "audio_both": "confirmed by owner",
+    "public_wrapper_reflashed_on_hardware": false,
+    "live_payload_dump": false,
+    "post_patch_hci_capture": false,
+    "other_units_tested": false
+  },
+  "patch": {
+    "offset": "0x639df",
+    "before": "520a03920a0487150266454060807487993a920a05708074879931",
+    "after": "520a04608074879543920a05909064708074879937860000f02000"
+  }
+}

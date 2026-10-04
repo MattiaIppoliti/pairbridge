@@ -1,0 +1,17 @@
+/inputs/
+/dist*/
+/.local/
+/build/
+*.apk
+*.bin
+*.p12
+*.jks
+*.keystore
+*.password
+*.log
+*.logarchive/
+*.tar.gz
+*.pyc
+__pycache__/
+.DS_Store
+.env
